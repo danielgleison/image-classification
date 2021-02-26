@@ -1,0 +1,5 @@
+https://teachablemachine.withgoogle.com
+
+https://www.pluralsight.com/guides/deploying-image-classification-on-the-web-with-streamlit-and-heroku
+
+https://desolate-lake-62973.herokuapp.com/
