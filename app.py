@@ -26,13 +26,15 @@ if uploaded_file is not None:
     image = Image.open(uploaded_file)
     st.image(image, caption='RM carregada', use_column_width=True)
     st.write("")
-    st.write("Classificando...")
+    ##st.write("Classificando...")
     label = teachable_machine_classification(image, 'brain_tumor_classification.h5')
     if label == 0:
         st.warning("RM cerebral com tumor.")
     else:
         st.warning("RM cerebral sem tumor.")
 
+
+st.text_area("O código....")
 
 st.sidebar.write("""
 
