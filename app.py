@@ -11,7 +11,7 @@ O treinamento do modelo de classificação foi baseado no dataset [Brain MRI Ima
 que possui 253 imagens de Ressonância Magnética (RM), sendo 155 com tumor e 98 sem tumor.\n
 
 - Realizar o download de qualquer imagem de RM disponível no link do dataset;
-- Clicar no botão para selecionar a imagem e carregá-la no sistema;
+- Clicar no botão abaixo para selecionar a imagem e carregá-la no sistema;
 - Verificar o resultado.
 
 
