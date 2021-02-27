@@ -17,7 +17,6 @@ que possui 253 imagens de Ressonância Magnética (RM) do crânio, sendo 155 com
 """)
 
 
-
 from img_classification import teachable_machine_classification
 
 uploaded_file = st.file_uploader("Selecione a imagem de RM ...", type="jpg")
@@ -32,6 +31,12 @@ if uploaded_file is not None:
         st.warning("RM cerebral com tumor.")
     else:
         st.warning("RM cerebral sem tumor.")
+
+st.write("""
+
+O modelo foi treinado pela ferramenta [Google Teachble Machine] (https://teachablemachine.withgoogle.com/)
+utilizando TensorFlow e Keras.
+""")
 
 
 st.sidebar.write("""
