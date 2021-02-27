@@ -61,7 +61,5 @@ image = Image.open('qrcode.jpg')
 st.sidebar.image(image, width=100, use_column_width=False, caption='v0.19.200221')
 
 
-from img_classification import teachable_machine_classification
-
 
 
