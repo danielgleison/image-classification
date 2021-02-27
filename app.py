@@ -5,8 +5,7 @@ import numpy as np
 
 st.write("""
 
-# Classificação de Imagens com Deep Learning
-Aplicação acadêmica de detecção de tumor cerebral utilizado Tensor Flow e Keras.\n
+# Detecção de tumor cerebral utilizando técnicas de Deep Learning em imagens de Ressonância Magnética
 O treinamento do modelo de classificação foi baseado no dataset [Brain MRI Images for Brain Tumor Detection]
 (https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection), disponível no Kaggle,
 que possui 253 imagens de Ressonância Magnética (RM), sendo 155 com tumor e 98 sem tumor.\n
