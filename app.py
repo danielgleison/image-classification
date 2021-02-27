@@ -10,7 +10,7 @@ O treinamento do modelo de classificação foi baseado no dataset [Brain MRI Ima
 (https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection), disponível no Kaggle,
 que possui 253 imagens de Ressonância Magnética (RM), sendo 155 com tumor e 98 sem tumor.\n
 
-Faça o download de qualquer imagem de RM disponível no dataset e depois clique no botão abaixo
+Faça o download de qualquer imagem de RM disponível no link do dataset e depois clique no botão abaixo
 para carregá-la no sistema. 
 
 
