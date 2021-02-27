@@ -6,13 +6,13 @@ import numpy as np
 st.write("""
 
 # Detecção de tumor cerebral utilizando técnicas de Deep Learning em imagens de Ressonância Magnética
-O treinamento do modelo de classificação foi baseado no dataset [Brain MRI Images for Brain Tumor Detection]
+A classificação foi baseada no dataset [Brain MRI Images for Brain Tumor Detection]
 (https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection), disponível no Kaggle,
-que possui 253 imagens de Ressonância Magnética (RM), sendo 155 com tumor e 98 sem tumor.\n
+que possui 253 imagens de Ressonância Magnética (RM) do crânio, sendo 155 com tumor e 98 sem tumor.\n
 
-- Realizar o download de qualquer imagem de RM disponível no link do dataset;
+- Realizar o download de qualquer imagem de RM disponível no link acima do dataset;
 - Clicar no botão abaixo para selecionar a imagem e carregá-la no sistema;
-- Verificar o resultado (RM com tumor ou RM sem turmor).
+- Verificar o resultado da predição (RM com tumor ou RM sem turmor).
 
 """)
 
