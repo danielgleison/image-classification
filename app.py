@@ -10,7 +10,8 @@ O treinamento do modelo de classificação foi baseado no dataset [Brain MRI Ima
 (https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection), disponível no Kaggle,
 que possui 253 imagens de Ressonância Magnética (RM), sendo 155 com tumor e 98 sem tumor.\n
 
-Carregue a imagem de RM para predição do diagnóstico: com tumor ou sem tumor.
+Faça o download de qualquer imagem de RM disponível no dataset e depois clique no botão abaixo
+para carregá-la no sistema. 
 
 
 """)
@@ -21,6 +22,7 @@ from img_classification import teachable_machine_classification
 
 uploaded_file = st.file_uploader("Selecione a imagem de RM ...", type="jpg")
 if uploaded_file is not None:
+    ##image = Image.open(uploaded_file)
     image = Image.open(uploaded_file)
     st.image(image, caption='RM carregada.', use_column_width=True)
     st.write("")
