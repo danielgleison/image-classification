@@ -12,8 +12,7 @@ que possui 253 imagens de Ressonância Magnética (RM), sendo 155 com tumor e 98
 
 - Realizar o download de qualquer imagem de RM disponível no link do dataset;
 - Clicar no botão abaixo para selecionar a imagem e carregá-la no sistema;
-- Verificar o resultado.
-
+- Verificar o resultado (RM com tumor ou RM sem turmor).
 
 """)
 
@@ -30,9 +29,9 @@ if uploaded_file is not None:
     st.write("Classificando...")
     label = teachable_machine_classification(image, 'brain_tumor_classification.h5')
     if label == 0:
-        st.warning("A RM cerebral analisada tem tumor.")
+        st.warning("RM cerebral com tumor.")
     else:
-        st.warning("A RM cerebral analisada não tem tumor.")
+        st.warning("RM cerebral sem tumor.")
 
 
 st.sidebar.write("""
