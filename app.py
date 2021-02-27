@@ -55,7 +55,7 @@ Universidade Estadual do Ceará
 # Portfolio
 st.sidebar.write("""
 
-Portfólio de Apps Web
+Portfólio
 --
 * [Predição de Diabetes](http://dg-diabetes-prediction.herokuapp.com/)
 * [Plaforma IoT](http://dg-iot.herokuapp.com)
