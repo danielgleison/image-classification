@@ -36,7 +36,7 @@ st.write("""
 
 O modelo foi treinado pela ferramenta [Google Teachble Machine] (https://teachablemachine.withgoogle.com/)
 utilizando TensorFlow e Keras.
-A aplicação foi desenvolvida em Python com framework web [Streamlit] (https://www.streamlit.io/).
+Aplicação desenvolvida em Python com framework web [Streamlit] (https://www.streamlit.io/).
 """)
 
 
