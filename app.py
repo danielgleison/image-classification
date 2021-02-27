@@ -34,8 +34,6 @@ if uploaded_file is not None:
         st.warning("RM cerebral sem tumor.")
 
 
-st.text_area("O código....")
-
 st.sidebar.write("""
 
 Daniel Gleison M. Lira
